@@ -33,5 +33,4 @@ jobs:
                   bin/targets/qualcommax/ipq807x/*.ubi
             - name: Clean
               run: make clean
-git clone https://github.com/qosmio/openwrt-ipq -b 24.10-nss
-cd openwrt-ipq
+git remote add upstream https://github.com/immortalwrt/immortalwrt

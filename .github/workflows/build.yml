@@ -33,4 +33,3 @@ jobs:
                   bin/targets/qualcommax/ipq807x/*.ubi
             - name: Clean
               run: make clean
-git remote add upstream https://github.com/immortalwrt/immortalwrt
